@@ -1014,8 +1014,25 @@ h1 {
   border: 1px solid #c9d4c3;
   transform: rotate(45deg);
 }
+.mosaic-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.mosaic-preview img {
+  width: 96px;
+  aspect-ratio: 4/3;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px #e1e7dc;
+}
+.mosaic-preview figcaption {
+  font-size: 10px;
+  color: #94a089;
+}
 .mosaic-cell.revealed {
-  background-image: url('/assets/garden-mosaic.svg');
+  background-image: url('/assets/garden-blocks.svg');
   background-size: 400% 300%;
   animation: piece-reveal 0.4s ease both;
 }

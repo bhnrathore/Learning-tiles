@@ -22,6 +22,13 @@ export function PatternReveal({
           <span className="muted"> / 12</span>
         </span>
       </div>
+      <figure className="mosaic-preview">
+        <img
+          src={`${import.meta.env.BASE_URL}assets/garden-blocks.svg`}
+          alt="The whole garden picture to build"
+        />
+        <figcaption>The picture to build</figcaption>
+      </figure>
       <div
         className="mosaic"
         role="img"
